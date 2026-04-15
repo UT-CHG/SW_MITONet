@@ -1,4 +1,5 @@
-data/
+# Data files
+data/PRJ*
 
 # Model artifacts
 **/saved_models*/
