@@ -1,0 +1,85 @@
+# This CITATION.cff file was generated with cffinit.
+
+
+cff-version: 1.2.0
+title: SW_MITONet
+message: >-
+  Please cite this software using the metadata from
+  "preferred-citation".
+type: software
+authors:
+  - given-names: Sourav
+    family-names: Dutta
+    email: sourav.dutta@austin.utexas.edu
+    affiliation: The University of Texas at Austin
+    orcid: 'https://orcid.org/0000-0002-7051-175X'
+  - given-names: Peter
+    family-names: Rivera-Casillas
+    email: peter.g.rivera-casillas@erdc.dren.mil
+    affiliation: U.S. Army Engineer Research and Development Center
+    orcid: 'https://orcid.org/0000-0002-8516-3751'
+repository-code: 'https://github.com/UT-CHG/SW_MITONet'
+abstract: >-
+  TensorFlow-2 implementation of SW_MITONet, a neural
+  emulator for 2D shallow water flows in coastal and
+  riverine environments. The examples support the results
+  presented in https://doi.org/10.48550/arXiv.2502.14782
+keywords:
+  - MITONet
+  - Neural Operator
+  - DeepONet
+  - Shallow Water Equations
+license: BSD-3-Clause
+version: v1.0.0
+date-released: '2026-04-18'
+
+# Dataset references
+references:
+  - type: data
+    title: "2D ADCIRC simulation of tidal flow in Shinnecock Inlet, NY parameterized by bottom friction coefficient"
+    authors:
+      - family-names: "Dutta"
+        given-names: "Sourav"
+    doi: "10.17603/ds2-w533-0n80"
+    repository: "https://www.designsafe-ci.org/"
+    notes: "Simulation data used for coastal dynamics example (PRJ-5716)"
+  - type: data
+    title: "2D AdH simulation of riverine hydrodynamics in a section of the Red River in Louisiana, USA, parameterized by the bottom friction coefficient"
+    authors:
+      - family-names: "Dutta"
+        given-names: "Sourav"
+    doi: "10.17603/ds2-3w1m-ht51" 
+    repository: "https://www.designsafe-ci.org/"
+    notes: "Simulation data used for riverine dynamics example (PRJ-6207)"
+
+# This is the section to add once your paper is out:
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Rivera-Casillas"
+      given-names: "Peter"
+    - family-names: "Dutta"
+      given-names: "Sourav"
+    - family-names: "Cai"
+      given-names: "Shukai"
+    - family-names: "Loveland"
+      given-names: "Mark"
+    - family-names: "Nath"
+      given-names: "Kamaljyoti"
+    - family-names: "Shukla"
+      given-names: "Khemraj"
+    - family-names: "Trahan"
+      given-names: "Corey"
+    - family-names: "Lee"
+      given-names: "Jonghyun"
+    - family-names: "Farthing"
+      given-names: "Matthew"
+    - family-names: "Dawson"
+      given-names: "Clint"
+  title: "A Neural Operator Emulator for Coastal and Riverine Shallow Water Dynamics"
+  journal: "Journal of Geophysical Research: Machine Learning and Computation" 
+  year: 2026
+  doi: " " # The DOI of published AGU paper
+  volume: 
+  issue: 
+  start:  # First page number
