@@ -18,6 +18,9 @@ authors:
     email: peter.g.rivera-casillas@erdc.dren.mil
     affiliation: U.S. Army Engineer Research and Development Center
     orcid: 'https://orcid.org/0000-0002-8516-3751'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19646823
 repository-code: 'https://github.com/UT-CHG/SW_MITONet'
 abstract: >-
   TensorFlow-2 implementation of SW_MITONet, a neural
