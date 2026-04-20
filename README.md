@@ -1,6 +1,6 @@
-# MITONet Repository
+# MITONet for 2D Shallow Water Equations
 
-This repository consolidates the MITONet shallow-water emulator workflows for both the **Shinnecock Inlet** and **Red River** studies that appear in the paper *"A Neural Operator Emulator for Coastal and Riverine Shallow Water Dynamics"*. Each case retains its own training scripts, configuration files, and notebooks, while the shared data directory and licensing live at the repo root.
+This repository consolidates the MITONet 2d shallow-water emulator workflows for both the **Shinnecock Inlet** and **Red River** studies that appear in the paper *"A Neural Operator Emulator for Coastal and Riverine Shallow Water Dynamics"*. Each case retains its own training scripts, configuration files, and notebooks, while the shared data directory and licensing live at the repo root.
 
 ## Repository Layout
 
